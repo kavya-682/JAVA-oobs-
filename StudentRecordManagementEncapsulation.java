@@ -56,10 +56,7 @@ public class StudentRecordManagementEncapsulation {
     	 System.out.println(student.getAge());
     	 System.out.println(student.getGrade());
     	 
-    	 
 	}
-	
-
 }
 class Student{
 	private int id;
@@ -96,3 +93,4 @@ class Student{
 		return grade;
 	}
 }
+
