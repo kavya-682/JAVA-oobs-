@@ -1,0 +1,1969 @@
+7️⃣ Java Versions & Features (Advanced)
+
+Q26: Which of the following was introduced in Java 17?
+a) Virtual threads
+b) Records
+c) Stream API
+d) Optional
+
+✅ Answer: b) Records
+
+Q27: Which JEP introduced Pattern Matching for instanceof in Java 16/17?
+a) JEP 394
+b) JEP 395
+c) JEP 408
+d) JEP 420
+
+✅ Answer: a) JEP 394
+
+Q28: Java 21 introduced which concurrency feature?
+a) ForkJoinPool
+b) Virtual threads
+c) Parallel streams
+d) CompletableFuture
+
+✅ Answer: b) Virtual threads
+
+Q29: Which version added Text Blocks for multi-line strings?
+a) Java 11
+b) Java 13
+c) Java 15
+d) Java 17
+
+✅ Answer: c) Java 15
+
+Q30: Which of the following is a feature of Java 25?
+a) Module import declarations
+b) Lambda expressions
+c) Streams API
+d) Sealed classes
+
+✅ Answer: a) Module import declarations
+
+8️⃣ Advanced OOP Concepts
+
+Q31: What is true about final classes?
+a) Can be inherited
+b) Cannot be inherited
+c) Can be abstract
+d) Can implement interfaces
+
+✅ Answer: b) Cannot be inherited
+
+Q32: Which feature ensures class immutability?
+a) Make fields final
+b) Provide setters
+c) Inherit class
+d) Use abstract class
+
+✅ Answer: a) Make fields final
+
+Q33: Which is true about abstract methods?
+a) Must have a body
+b) Cannot exist in interfaces
+c) Cannot have static methods
+d) Declared without body
+
+✅ Answer: d) Declared without body
+
+Q34: Sealed classes allow:
+a) Unlimited subclasses
+b) Subclasses only from same package
+c) Specified subclasses only
+d) Only abstract methods
+
+✅ Answer: c) Specified subclasses only
+
+Q35: Which statement about interface default methods is true?
+a) Must be overridden
+b) Cannot be static
+c) Provides implementation in interface
+d) Cannot call from implementing class
+
+✅ Answer: c) Provides implementation in interface
+
+9️⃣ Collections Framework (Advanced)
+
+Q36: Which map is sorted by natural order of keys?
+a) HashMap
+b) LinkedHashMap
+c) TreeMap
+d) Hashtable
+
+✅ Answer: c) TreeMap
+
+Q37: Which collection is thread-safe without external sync?
+a) ArrayList
+b) HashMap
+c) Vector
+d) TreeSet
+
+✅ Answer: c) Vector
+
+Q38: Which interface provides filtering and mapping operations on collections?
+a) Collection
+b) Stream
+c) Iterator
+d) Map
+
+✅ Answer: b) Stream
+
+Q39: Which queue is FIFO?
+a) PriorityQueue
+b) ArrayDeque
+c) LinkedList (used as Queue)
+d) Stack
+
+✅ Answer: c) LinkedList (used as Queue)
+
+Q40: Which method removes all elements that satisfy a condition in Java 8+?
+a) removeIf()
+b) removeAll()
+c) clear()
+d) retainAll()
+
+✅ Answer: a) removeIf()
+
+10️⃣ File Handling & I/O (Advanced)
+
+Q41: Which NIO.2 class represents a file path?
+a) File
+b) Path
+c) FileReader
+d) BufferedReader
+
+✅ Answer: b) Path
+
+Q42: Which method writes a list of strings to a file?
+a) Files.readAllLines()
+b) Files.write()
+c) FileWriter.writeLines()
+d) File.write()
+
+✅ Answer: b) Files.write()
+
+Q43: Which of these is character-based stream?
+a) FileInputStream
+b) FileOutputStream
+c) FileReader
+d) DataInputStream
+
+✅ Answer: c) FileReader
+
+Q44: Which method checks if a file is a directory?
+a) isDir()
+b) isDirectory()
+c) exists()
+d) isFolder()
+
+✅ Answer: b) isDirectory()
+
+Q45: Which stream supports serialization?
+a) ObjectOutputStream
+b) BufferedReader
+c) FileReader
+d) PrintWriter
+
+✅ Answer: a) ObjectOutputStream
+
+11️⃣ Multithreading & Concurrency
+
+Q46: Which method waits for a thread to finish?
+a) join()
+b) sleep()
+c) wait()
+d) notify()
+
+✅ Answer: a) join()
+
+Q47: Which is a thread-safe alternative to HashMap?
+a) Hashtable
+b) TreeMap
+c) LinkedHashMap
+d) ArrayList
+
+✅ Answer: a) Hashtable
+
+Q48: Which class implements a blocking queue?
+a) LinkedBlockingQueue
+b) PriorityQueue
+c) ArrayList
+d) HashSet
+
+✅ Answer: a) LinkedBlockingQueue
+
+Q49: Which method starts a parallel stream?
+a) list.parallel()
+b) list.parallelStream()
+c) list.stream.parallel()
+d) list.parallelExecute()
+
+✅ Answer: b) list.parallelStream()
+
+Q50: Which lambda expression represents a Runnable?
+a) () -> System.out.println("Hello")
+b) (x) -> x*2
+c) (a,b) -> a+b
+d) (String s) -> s.length()
+
+✅ Answer: a) () -> System.out.println("Hello")
+
+1️⃣ Java Fundamentals
+
+Q1: Which of these is not a Java feature?
+a) Platform-independent
+b) Object-oriented
+c) Pointer arithmetic
+d) Multi-threaded
+
+✅ Answer: c) Pointer arithmetic
+
+Q2: Which of these is not a primitive data type in Java?
+a) int
+b) float
+c) String
+d) double
+
+✅ Answer: c) String
+
+Q3: Which keyword is used to inherit a class?
+a) implements
+b) inherits
+c) extends
+d) super
+
+✅ Answer: c) extends
+
+Q4: Which method is used to start a Java program?
+a) run()
+b) start()
+c) main()
+d) init()
+
+✅ Answer: c) main()
+
+Q5: Which operator is used for reference comparison in Java?
+a) =
+b) ==
+c) equals()
+d) ===
+
+✅ Answer: b) ==
+
+Q6: Which of these cannot be used with switch (pre Java 7)?
+a) int
+b) String
+c) char
+d) byte
+
+✅ Answer: b) String
+
+Q7: Default value of a boolean variable in Java?
+a) true
+b) false
+c) 0
+d) null
+
+✅ Answer: b) false
+
+2️⃣ Object-Oriented Programming (OOP)
+
+Q8: Which of the following is not a pillar of OOP?
+a) Encapsulation
+b) Abstraction
+c) Polymorphism
+d) Compilation
+
+✅ Answer: d) Compilation
+
+Q9: Abstract class cannot:
+a) Have concrete methods
+b) Be instantiated
+c) Have constructors
+d) Be inherited
+
+✅ Answer: b) Be instantiated
+
+Q10: Interface in Java 8 can have:
+a) Only abstract methods
+b) Default methods
+c) Static methods
+d) b and c
+
+✅ Answer: d) b and c
+
+Q11: Which of these is immutable?
+a) String
+b) StringBuilder
+c) ArrayList
+d) HashMap
+
+✅ Answer: a) String
+
+Q12: Which keyword prevents inheritance?
+a) abstract
+b) final
+c) static
+d) private
+
+✅ Answer: b) final
+
+Q13: What does super keyword refer to?
+a) Current object
+b) Parent class object
+c) Interface object
+d) Static variable
+
+✅ Answer: b) Parent class object
+
+3️⃣ Java Data Types & Operators
+
+Q14: Result of 5 / 2 in Java (int division)?
+a) 2.5
+b) 2
+c) 3
+d) Error
+
+✅ Answer: b) 2
+
+Q15: Which operator is used for bitwise AND?
+a) &
+b) &&
+c) |
+d) ^
+
+✅ Answer: a) &
+
+Q16: Which of these is correct for casting double to int?
+a) int i = (int) 3.5;
+b) int i = 3.5;
+c) int i = int(3.5);
+d) int i = cast(3.5);
+
+✅ Answer: a) int i = (int) 3.5;
+
+4️⃣ Control Statements & Loops
+
+Q17: Output of:
+
+int x = 0;
+for(int i=0;i<5;i++) x += i;
+System.out.println(x);
+
+
+a) 10
+b) 15
+c) 5
+d) 0
+
+✅ Answer: a) 10
+
+Q18: Which loop is guaranteed to execute at least once?
+a) for
+b) while
+c) do-while
+d) foreach
+
+✅ Answer: c) do-while
+
+Q19: Which keyword exits a loop immediately?
+a) continue
+b) break
+c) exit
+d) stop
+
+✅ Answer: b) break
+
+Q20: What is the output?
+
+int a = 5;
+if(a > 2)
+   if(a < 10)
+      System.out.println("Yes");
+   else
+      System.out.println("No");
+
+
+a) Yes
+b) No
+c) Error
+d) Nothing
+
+✅ Answer: a) Yes
+
+5️⃣ Arrays & Strings
+
+Q21: Length of array int arr[] = new int[5];?
+a) 4
+b) 5
+c) 0
+d) Undefined
+
+✅ Answer: b) 5
+
+Q22: Which is immutable?
+a) StringBuilder
+b) StringBuffer
+c) String
+d) char[]
+
+✅ Answer: c) String
+
+Q23: Output of:
+
+String s1 = "Java";
+String s2 = "Java";
+System.out.println(s1 == s2);
+
+
+a) true
+b) false
+c) Error
+d) Null
+
+✅ Answer: a) true
+
+Q24: Correct way to convert string "123" to int?
+a) Integer.parseInt("123")
+b) int("123")
+c) Integer.valueOf("123")
+d) Both a and c
+
+✅ Answer: d) Both a and c
+
+Q25: What will s1.equalsIgnoreCase(s2) return if s1="java", s2="JAVA"?
+a) true
+b) false
+c) Error
+d) Null
+
+✅ Answer: a) true
+
+Q26: Which is true about polymorphism?
+a) Compile-time only
+b) Runtime only
+c) Can be compile-time and runtime
+d) Not supported in Java
+
+✅ Answer: c) Can be compile-time and runtime
+
+Q27: Which type of polymorphism is method overloading?
+a) Compile-time
+b) Runtime
+c) Both
+d) None
+
+✅ Answer: a) Compile-time
+
+Q28: Method overriding occurs at:
+a) Compile-time
+b) Runtime
+c) Both
+d) None
+
+✅ Answer: b) Runtime
+
+Q29: Which keyword calls parent class constructor?
+a) this()
+b) super()
+c) parent()
+d) base()
+
+✅ Answer: b) super()
+
+Q30: Constructor overloading is example of:
+a) Runtime polymorphism
+b) Compile-time polymorphism
+c) Abstraction
+d) Encapsulation
+
+✅ Answer: b) Compile-time polymorphism
+
+Q31: Which statement about abstract class is false?
+a) Can have abstract methods
+b) Can have concrete methods
+c) Cannot have constructors
+d) Cannot be instantiated
+
+✅ Answer: c) Cannot have constructors
+
+Q32: Which keyword prevents a method from being overridden?
+a) static
+b) final
+c) abstract
+d) private
+
+✅ Answer: b) final
+
+Q33: Default access modifier in Java is:
+a) public
+b) protected
+c) private
+d) package-private
+
+✅ Answer: d) package-private
+
+Q34: Which allows multiple inheritance of type?
+a) Class
+b) Interface
+c) Enum
+d) Abstract class
+
+✅ Answer: b) Interface
+
+Q35: What is encapsulation?
+a) Hiding data using private fields
+b) Inheriting classes
+c) Overloading methods
+d) Abstract methods
+
+✅ Answer: a) Hiding data using private fields
+
+Q36: Which modifier allows access only within the same class?
+a) private
+b) public
+c) protected
+d) default
+
+✅ Answer: a) private
+
+Q37: Can a final class implement an interface?
+a) Yes
+b) No
+
+✅ Answer: a) Yes
+
+Q38: Which is immutable object creation?
+a) String s = "abc";
+b) StringBuilder sb = new StringBuilder("abc");
+c) ArrayList<Integer> list = new ArrayList<>();
+d) HashMap<String,String> map = new HashMap<>();
+
+✅ Answer: a) String s = "abc";
+
+Q39: Which is true about sealed classes?
+a) All classes can extend it
+b) Only permitted subclasses can extend
+c) Cannot have any subclass
+d) Only final classes can extend
+
+✅ Answer: b) Only permitted subclasses can extend
+
+Q40: What is record class in Java?
+a) Mutable class
+b) Immutable data carrier class
+c) Abstract class
+d) Interface
+
+✅ Answer: b) Immutable data carrier class
+
+7️⃣ Collections Framework (Q41–Q55)
+
+Q41: Which collection maintains insertion order?
+a) HashSet
+b) LinkedHashSet
+c) TreeSet
+d) PriorityQueue
+
+✅ Answer: b) LinkedHashSet
+
+Q42: Which is not synchronized?
+a) Vector
+b) Hashtable
+c) ArrayList
+d) ConcurrentHashMap
+
+✅ Answer: c) ArrayList
+
+Q43: Which implements List interface?
+a) HashMap
+b) ArrayList
+c) TreeMap
+d) HashSet
+
+✅ Answer: b) ArrayList
+
+Q44: Which Set stores elements sorted by natural order?
+a) HashSet
+b) LinkedHashSet
+c) TreeSet
+d) ArrayList
+
+✅ Answer: c) TreeSet
+
+Q45: Default capacity of HashMap?
+a) 8
+b) 16
+c) 10
+d) 12
+
+✅ Answer: b) 16
+
+Q46: Which method removes all elements of collection satisfying condition?
+a) removeAll()
+b) removeIf()
+c) clear()
+d) retainAll()
+
+✅ Answer: b) removeIf()
+
+Q47: Which interface supports stream operations?
+a) Collection
+b) Stream
+c) Iterator
+d) Map
+
+✅ Answer: b) Stream
+
+Q48: Which collection is thread-safe?
+a) ArrayList
+b) HashMap
+c) Vector
+d) HashSet
+
+✅ Answer: c) Vector
+
+Q49: Which Map allows null key?
+a) HashMap
+b) Hashtable
+c) TreeMap
+d) ConcurrentHashMap
+
+✅ Answer: a) HashMap
+
+Q50: Which Queue is FIFO?
+a) Stack
+b) PriorityQueue
+c) LinkedList (Queue)
+d) HashSet
+
+✅ Answer: c) LinkedList (Queue)
+
+Q51: Which Concurrent Collection is thread-safe?
+a) HashMap
+b) ConcurrentHashMap
+c) ArrayList
+d) TreeMap
+
+✅ Answer: b) ConcurrentHashMap
+
+Q52: Which method starts parallel stream?
+a) list.parallel()
+b) list.parallelStream()
+c) list.stream.parallel()
+d) list.parallelExecute()
+
+✅ Answer: b) list.parallelStream()
+
+Q53: Which Map maintains insertion order?
+a) HashMap
+b) LinkedHashMap
+c) TreeMap
+d) Hashtable
+
+✅ Answer: b) LinkedHashMap
+
+Q54: Default load factor of HashMap?
+a) 0.5
+b) 0.75
+c) 1
+d) 0.25
+
+✅ Answer: b) 0.75
+
+Q55: Which Set is sorted automatically?
+a) HashSet
+b) LinkedHashSet
+c) TreeSet
+d) Vector
+
+✅ Answer: c) TreeSet
+
+Q56: Which class is used to read text files line by line in Java 8+?
+a) FileReader
+b) BufferedReader
+c) Scanner
+d) Files
+
+✅ Answer: d) Files
+
+Q57: Which class is character-based stream?
+a) FileInputStream
+b) FileOutputStream
+c) FileReader
+d) DataInputStream
+
+✅ Answer: c) FileReader
+
+Q58: Which class is byte-based stream?
+a) FileReader
+b) FileWriter
+c) FileInputStream
+d) BufferedReader
+
+✅ Answer: c) FileInputStream
+
+Q59: Which method checks if a file exists?
+a) existsFile()
+b) exists()
+c) isFile()
+d) checkFile()
+
+✅ Answer: b) exists()
+
+Q60: Which method writes list of strings to file?
+a) Files.readAllLines()
+b) Files.write()
+c) FileWriter.writeLines()
+d) File.write()
+
+✅ Answer: b) Files.write()
+
+Q61: What is try-with-resources used for?
+a) Automatically closes streams
+b) Handles exceptions
+c) Reads file
+d) Writes file
+
+✅ Answer: a) Automatically closes streams
+
+Q62: Which stream supports object serialization?
+a) FileInputStream
+b) ObjectOutputStream
+c) FileWriter
+d) PrintWriter
+
+✅ Answer: b) ObjectOutputStream
+
+Q63: Which class represents a file path in NIO?
+a) File
+b) Path
+c) FileReader
+d) BufferedReader
+
+✅ Answer: b) Path
+
+Q64: Which method reads all lines from a file?
+a) Files.readAll()
+b) Files.readAllLines()
+c) FileReader.read()
+d) BufferedReader.read()
+
+✅ Answer: b) Files.readAllLines()
+
+Q65: Which method deletes a file?
+a) remove()
+b) delete()
+c) deleteFile()
+d) removeFile()
+
+✅ Answer: b) delete()
+
+Q66: Which method checks if a path is directory?
+a) isDirectory()
+b) isDir()
+c) exists()
+d) isFolder()
+
+✅ Answer: a) isDirectory()
+
+Q67: Which stream is buffered?
+a) FileReader
+b) BufferedReader
+c) FileInputStream
+d) DataInputStream
+
+✅ Answer: b) BufferedReader
+
+Q68: Which class writes text to file?
+a) FileWriter
+b) FileReader
+c) ObjectOutputStream
+d) FileInputStream
+
+✅ Answer: a) FileWriter
+
+Q69: Which method appends text to file using FileWriter?
+a) write(String, append)
+b) write(String) with constructor append = true
+c) append() only
+d) add()
+
+✅ Answer: b) write(String) with constructor append = true
+
+Q70: Which exception handles file not found?
+a) IOException
+b) FileNotFoundException
+c) EOFException
+d) RuntimeException
+
+✅ Answer: b) FileNotFoundException
+
+9️⃣ Multithreading & Concurrency (Q71–Q85)
+
+Q71: Which method starts a thread?
+a) run()
+b) start()
+c) execute()
+d) init()
+
+✅ Answer: b) start()
+
+Q72: Which method waits for thread to finish?
+a) sleep()
+b) join()
+c) wait()
+d) notify()
+
+✅ Answer: b) join()
+
+Q73: Which class implements Runnable?
+a) Thread
+b) Any class implementing Runnable
+c) Timer
+d) Executor
+
+✅ Answer: b) Any class implementing Runnable
+
+Q74: Which is thread-safe collection?
+a) ArrayList
+b) HashMap
+c) Vector
+d) LinkedList
+
+✅ Answer: c) Vector
+
+Q75: Which is a concurrent Map?
+a) HashMap
+b) Hashtable
+c) ConcurrentHashMap
+d) TreeMap
+
+✅ Answer: c) ConcurrentHashMap
+
+Q76: Which executor executes tasks asynchronously?
+a) ExecutorService
+b) Thread
+c) Runnable
+d) Callable
+
+✅ Answer: a) ExecutorService
+
+Q77: Which method pauses thread?
+a) wait()
+b) sleep()
+c) join()
+d) yield()
+
+✅ Answer: b) sleep()
+
+Q78: Which method resumes a waiting thread?
+a) notify()
+b) notifyAll()
+c) Both a & b
+d) wait()
+
+✅ Answer: c) Both a & b
+
+Q79: Which keyword prevents multiple threads from accessing a block simultaneously?
+a) final
+b) synchronized
+c) volatile
+d) transient
+
+✅ Answer: b) synchronized
+
+Q80: Virtual threads introduced in?
+a) Java 17
+b) Java 21
+c) Java 8
+d) Java 25
+
+✅ Answer: b) Java 21
+
+Q81: Which interface represents a task returning a result?
+a) Runnable
+b) Callable
+c) Thread
+d) Executor
+
+✅ Answer: b) Callable
+
+Q82: Which method executes task and returns Future?
+a) execute()
+b) submit()
+c) run()
+d) start()
+
+✅ Answer: b) submit()
+
+Q83: Thread-safe queue implementation?
+a) LinkedBlockingQueue
+b) ArrayDeque
+c) LinkedList
+d) Stack
+
+✅ Answer: a) LinkedBlockingQueue
+
+Q84: Which class manages a thread pool?
+a) ThreadPoolExecutor
+b) ExecutorService
+c) ForkJoinPool
+d) All of the above
+
+✅ Answer: d) All of the above
+
+Q85: Which method allows yielding CPU?
+a) wait()
+b) sleep()
+c) yield()
+d) notify()
+
+✅ Answer: c) yield()
+
+10️⃣ Lambda, Streams & Generics (Q86–Q95)
+
+Q86: Which is a functional interface?
+a) Runnable
+b) Comparator
+c) ActionListener
+d) All of the above
+
+✅ Answer: d) All of the above
+
+Q87: Stream terminal operation?
+a) map()
+b) filter()
+c) collect()
+d) peek()
+
+✅ Answer: c) collect()
+
+Q88: Stream intermediate operation?
+a) collect()
+b) count()
+c) map()
+d) forEach()
+
+✅ Answer: c) map()
+
+Q89: Which method creates parallel stream?
+a) list.parallel()
+b) list.parallelStream()
+c) list.stream.parallel()
+d) list.parallelExecute()
+
+✅ Answer: b) list.parallelStream()
+
+Q90: Generic declaration for any type?
+a) <T>
+b) <E>
+c) <K,V>
+d) <S>
+
+✅ Answer: a) <T>
+
+Q91: Generic method syntax?
+a) public <T> void method(T t)
+b) public void <T> method(T t)
+c) public void method<T>(T t)
+d) public void method(T)
+
+✅ Answer: a) public <T> void method(T t)
+
+Q92: Which prevents unchecked cast warnings?
+a) @Override
+b) @SuppressWarnings("unchecked")
+c) @FunctionalInterface
+d) @SafeVarargs
+
+✅ Answer: b) @SuppressWarnings("unchecked")
+
+Q93: Which Stream method returns distinct elements?
+a) distinct()
+b) unique()
+c) map()
+d) filter()
+
+✅ Answer: a) distinct()
+
+Q94: Optional method to get default value if empty?
+a) get()
+b) orElse()
+c) or()
+d) default()
+
+✅ Answer: b) orElse()
+
+Q95: Lambda expression for Runnable?
+a) () -> System.out.println("Hi")
+b) x -> x*2
+c) (a,b) -> a+b
+d) (String s) -> s.length()
+
+✅ Answer: a) () -> System.out.println("Hi")
+
+11️⃣ Patterns & Logic (Q96–Q100)
+
+Q96: Output of:
+
+for(int i=1;i<=3;i++){
+ for(int j=1;j<=i;j++)
+   System.out.print("*");
+ System.out.println();
+}
+
+
+a) *
+**
+***
+b) ***
+**
+*
+c) **
+***
+****
+d) None
+
+✅ Answer: a)
+
+Q97: Loops required for diamond pattern?
+a) 1
+b) 2
+c) 3
+d) 4
+
+✅ Answer: d) 4
+
+Q98: Output for numbers:
+
+for(int i=1;i<=3;i++){
+ for(int j=1;j<=i;j++)
+   System.out.print(j);
+ System.out.println();
+}
+
+
+a) 1 12 123
+b) 1 22 333
+c) 123 12 1
+d) 1 12 123
+
+✅ Answer: d) 1 12 123
+
+Q99: Pattern for pyramid uses:
+a) single loop
+b) nested loops
+c) switch
+d) while only
+
+✅ Answer: b) nested loops
+
+Q100: Correct nested loop for right triangle of stars?
+a) for(i) { for(j) print(""); }
+b) for(i) print("");
+c) while(i) { print("*"); }
+d) switch-case
+
+✅ Answer: a) for(i) { for(j) print("*"); }
+
+Which exception is unchecked?
+a) IOException
+b) RuntimeException
+c) FileNotFoundException
+d) SQLException
+
+✅ Answer: b) RuntimeException
+
+Q102: Checked exceptions must be:
+a) Declared or handled
+b) Ignored
+c) Only logged
+d) Thrown at runtime
+
+✅ Answer: a) Declared or handled
+
+Q103: Which keyword is used to manually throw an exception?
+a) throws
+b) throw
+c) try
+d) catch
+
+✅ Answer: b) throw
+
+Q104: Which statement is true about JDBC?
+a) Only for Oracle
+b) API to connect Java to DB
+c) Not supported in Java 8
+d) Only supports MySQL
+
+✅ Answer: b) API to connect Java to DB
+
+Q105: Which interface is used to iterate over collections?
+a) Iterator
+b) Iterable
+c) ListIterator
+d) All of the above
+
+✅ Answer: d) All of the above
+
+Q106: Which method removes elements using Iterator?
+a) delete()
+b) remove()
+c) clear()
+d) erase()
+
+✅ Answer: b) remove()
+
+Q107: Which annotation marks deprecated methods?
+a) @Deprecated
+b) @Override
+c) @SuppressWarnings
+d) @FunctionalInterface
+
+✅ Answer: a) @Deprecated
+
+Q108: Which annotation ensures method overrides parent method?
+a) @Override
+b) @Deprecated
+c) @SuppressWarnings
+d) @SafeVarargs
+
+✅ Answer: a) @Override
+
+Q109: Serialization in Java is:
+a) Converting object to bytes
+b) Reading object from file
+c) Cloning object
+d) Copying object
+
+✅ Answer: a) Converting object to bytes
+
+Q110: Which interface must be implemented for object serialization?
+a) Serializable
+b) Cloneable
+c) Externalizable
+d) Comparable
+
+✅ Answer: a) Serializable
+
+Q111: Which is used to control version during serialization?
+a) serialVersionUID
+b) versionID
+c) SerializableUID
+d) UID
+
+✅ Answer: a) serialVersionUID
+
+Q112: Which statement about transient keyword?
+a) Serializable field
+b) Prevents field from serialization
+c) Makes field static
+d) Used in threading
+
+✅ Answer: b) Prevents field from serialization
+
+Q113: Which exception occurs when division by zero?
+a) ArithmeticException
+b) IOException
+c) RuntimeException
+d) NullPointerException
+
+✅ Answer: a) ArithmeticException
+
+Q114: Which method is used to load JDBC driver?
+a) Class.forName()
+b) DriverManager.load()
+c) Driver.load()
+d) DriverManager.forName()
+
+✅ Answer: a) Class.forName()
+
+Q115: Which interface is implemented by lambda expression?
+a) Functional interface
+b) Runnable only
+c) Callable only
+d) Serializable
+
+✅ Answer: a) Functional interface
+
+Q116: Which stream API method transforms elements?
+a) map()
+b) filter()
+c) reduce()
+d) collect()
+
+✅ Answer: a) map()
+
+Q117: Which method in Stream reduces to a single value?
+a) map()
+b) filter()
+c) reduce()
+d) forEach()
+
+✅ Answer: c) reduce()
+
+Q118: Which collection class allows null elements and keys?
+a) HashMap
+b) TreeMap
+c) Hashtable
+d) ConcurrentHashMap
+
+✅ Answer: a) HashMap
+
+Q119: Which class in Java supports thread-safe list?
+a) ArrayList
+b) Vector
+c) LinkedList
+d) HashSet
+
+✅ Answer: b) Vector
+
+Q120: Which design pattern provides one global access point?
+a) Singleton
+b) Factory
+c) Observer
+d) Decorator
+
+✅ Answer: a) Singleton
+
+Q121: Which design pattern creates objects without specifying exact class?
+a) Singleton
+b) Factory
+c) Observer
+d) Decorator
+
+✅ Answer: b) Factory
+
+Q122: Which pattern notifies objects of changes in another object?
+a) Observer
+b) Singleton
+c) Strategy
+d) Adapter
+
+✅ Answer: a) Observer
+
+Q123: Decorator pattern is used to:
+a) Add new behavior dynamically
+b) Control instance creation
+c) Notify subscribers
+d) Convert interface
+
+✅ Answer: a) Add new behavior dynamically
+
+Q124: Strategy pattern is used for:
+a) Single instance
+b) Selecting algorithm at runtime
+c) Adding new behavior
+d) Observing changes
+
+✅ Answer: b) Selecting algorithm at runtime
+
+Q125: Adapter pattern is used for:
+a) Converting one interface to another
+b) Adding behavior dynamically
+c) Singleton management
+d) Thread synchronization
+
+✅ Answer: a) Converting one interface to another
+
+Q126: Which File class method checks if writable?
+a) canRead()
+b) canWrite()
+c) exists()
+d) isDirectory()
+
+✅ Answer: b) canWrite()
+
+Q127: Which File class method creates directory?
+a) mkdir()
+b) createDir()
+c) makeDirectory()
+d) newDir()
+
+✅ Answer: a) mkdir()
+
+Q128: Which exception is thrown by ObjectInputStream.readObject()?
+a) IOException
+b) ClassNotFoundException
+c) FileNotFoundException
+d) Both a & b
+
+✅ Answer: d) Both a & b
+
+Q129: Which method in ExecutorService shuts down executor?
+a) stop()
+b) shutdown()
+c) terminate()
+d) close()
+
+✅ Answer: b) shutdown()
+
+Q130: Which class is lock-based synchronization?
+a) ReentrantLock
+b) Semaphore
+c) CountDownLatch
+d) Thread
+
+✅ Answer: a) ReentrantLock
+
+Q131: Which lock allows fair ordering?
+a) ReentrantLock(fair = true)
+b) synchronized
+c) volatile
+d) AtomicInteger
+
+✅ Answer: a) ReentrantLock(fair = true)
+
+Q132: Which method acquires lock?
+a) lock()
+b) unlock()
+c) tryLock()
+d) Both a & c
+
+✅ Answer: d) Both a & c
+
+Q133: Which interface supports generics for key-value pairs?
+a) Map<K,V>
+b) List<E>
+c) Set<E>
+d) Collection<T>
+
+✅ Answer: a) Map<K,V>
+
+Q134: Which method in Map replaces value for a key?
+a) put()
+b) replace()
+c) update()
+d) set()
+
+✅ Answer: b) replace()
+
+Q135: Which Stream method filters elements?
+a) map()
+b) filter()
+c) reduce()
+d) collect()
+
+✅ Answer: b) filter()
+
+Q136: Optional method to check presence of value?
+a) isPresent()
+b) isEmpty()
+c) exists()
+d) contains()
+
+✅ Answer: a) isPresent()
+
+Q137: Optional method to get value safely?
+a) get()
+b) orElse(default)
+c) value()
+d) or()
+
+✅ Answer: b) orElse(default)
+
+Q138: Which generic type allows multiple types?
+a) <T,U>
+b) <T>
+c) <E>
+d) <K,V>
+
+✅ Answer: a) <T,U>
+
+Q139: Which stream method flattens nested collections?
+a) map()
+b) flatMap()
+c) reduce()
+d) collect()
+
+✅ Answer: b) flatMap()
+
+Q140: Which stream method applies action on each element?
+a) map()
+b) forEach()
+c) filter()
+d) reduce()
+
+✅ Answer: b) forEach()
+
+Q141: Which pattern prints numbers in right triangle?
+a) Nested loops
+b) Single loop
+c) Switch-case
+d) Recursion
+
+✅ Answer: a) Nested loops
+
+Q142: Which nested loop prints pyramid pattern?
+a) Two nested loops for spaces & stars
+b) Single loop
+c) Switch-case
+d) Recursion
+
+✅ Answer: a) Two nested loops for spaces & stars
+
+Q143: Diamond pattern requires:
+a) 1 loop
+b) 2 loops
+c) 4 loops
+d) 3 loops
+
+✅ Answer: c) 4 loops
+
+Q144: Which class provides atomic operations?
+a) AtomicInteger
+b) Integer
+c) ReentrantLock
+d) Thread
+
+✅ Answer: a) AtomicInteger
+
+Q145: Which class provides countdown latch?
+a) CountDownLatch
+b) Semaphore
+c) ReentrantLock
+d) AtomicInteger
+
+✅ Answer: a) CountDownLatch
+
+Q146: Which method waits for latch to reach zero?
+a) await()
+b) countDown()
+c) wait()
+d) sleep()
+
+✅ Answer: a) await()
+
+Q147: Which ExecutorService submits callable?
+a) submit()
+b) execute()
+c) start()
+d) run()
+
+✅ Answer: a) submit()
+
+Q148: Which design pattern provides global access to instance?
+a) Singleton
+b) Factory
+c) Observer
+d) Decorator
+
+✅ Answer: a) Singleton
+
+Q149: Which interface represents immutable list?
+a) List.of()
+b) ArrayList
+c) LinkedList
+d) Vector
+
+✅ Answer: a) List.of()
+
+Q150: Which class in Java reads from console?
+a) Scanner
+b) BufferedReader
+c) Console
+d) All of the above
+
+✅ Answer: d) All of the above
+
+Perfect! Let’s continue with **Q151–Q200**, covering the remaining **advanced Core Java topics**, including **exceptions, collections, multithreading, file handling, streams, lambda, generics, and common interview coding patterns**, with answers.
+
+---
+
+## **14️⃣ Advanced Core Java MCQs (Q151–Q200)**
+
+**Q151:** Which exception is thrown when **array index is out of bounds**?
+a) NullPointerException
+b) ArrayIndexOutOfBoundsException
+c) IndexException
+d) RuntimeException
+
+✅ **Answer:** b) ArrayIndexOutOfBoundsException
+
+---
+
+**Q152:** Which method is used to **create thread by implementing Runnable**?
+a) start()
+b) run()
+c) execute()
+d) init()
+
+✅ **Answer:** a) start()
+
+---
+
+**Q153:** Which **collection allows duplicate elements**?
+a) Set
+b) List
+c) Map
+d) None
+
+✅ **Answer:** b) List
+
+---
+
+**Q154:** Which **collection doesn’t allow null keys**?
+a) HashMap
+b) TreeMap
+c) Hashtable
+d) LinkedHashMap
+
+✅ **Answer:** c) Hashtable
+
+---
+
+**Q155:** Which **Map interface method** returns value or default?
+a) get()
+b) getOrDefault()
+c) put()
+d) replace()
+
+✅ **Answer:** b) getOrDefault()
+
+---
+
+**Q156:** Which **Stream method** sorts elements naturally?
+a) sort()
+b) sorted()
+c) map()
+d) filter()
+
+✅ **Answer:** b) sorted()
+
+---
+
+**Q157:** Which **Stream method** removes duplicates?
+a) distinct()
+b) unique()
+c) filter()
+d) map()
+
+✅ **Answer:** a) distinct()
+
+---
+
+**Q158:** Which **interface represents key-value pair collections**?
+a) List
+b) Map
+c) Set
+d) Collection
+
+✅ **Answer:** b) Map
+
+---
+
+**Q159:** Which **exception is thrown for null object access**?
+a) IOException
+b) RuntimeException
+c) NullPointerException
+d) ClassNotFoundException
+
+✅ **Answer:** c) NullPointerException
+
+---
+
+**Q160:** Which **collection class is synchronized by default**?
+a) ArrayList
+b) Vector
+c) HashMap
+d) LinkedList
+
+✅ **Answer:** b) Vector
+
+---
+
+**Q161:** Which method in **Thread class** pauses execution?
+a) sleep()
+b) wait()
+c) join()
+d) yield()
+
+✅ **Answer:** a) sleep()
+
+---
+
+**Q162:** Which class is **used for atomic operations**?
+a) AtomicInteger
+b) Integer
+c) Long
+d) Thread
+
+✅ **Answer:** a) AtomicInteger
+
+---
+
+**Q163:** Which **ExecutorService method** shuts down all threads gracefully?
+a) stop()
+b) shutdown()
+c) shutdownNow()
+d) close()
+
+✅ **Answer:** b) shutdown()
+
+---
+
+**Q164:** Which method **forces shutdown immediately**?
+a) shutdown()
+b) shutdownNow()
+c) stop()
+d) terminate()
+
+✅ **Answer:** b) shutdownNow()
+
+---
+
+**Q165:** Which **collection class implements priority queue**?
+a) LinkedList
+b) PriorityQueue
+c) ArrayList
+d) HashSet
+
+✅ **Answer:** b) PriorityQueue
+
+---
+
+**Q166:** Which class counts **threads completing tasks**?
+a) CountDownLatch
+b) Semaphore
+c) ReentrantLock
+d) AtomicInteger
+
+✅ **Answer:** a) CountDownLatch
+
+---
+
+**Q167:** Which keyword **prevents serialization** of a field?
+a) static
+b) transient
+c) volatile
+d) final
+
+✅ **Answer:** b) transient
+
+---
+
+**Q168:** Which method **serializes object to file**?
+a) ObjectOutputStream.writeObject()
+b) write()
+c) save()
+d) serialize()
+
+✅ **Answer:** a) ObjectOutputStream.writeObject()
+
+---
+
+**Q169:** Which class **reads text from file efficiently**?
+a) FileReader
+b) BufferedReader
+c) FileInputStream
+d) Scanner
+
+✅ **Answer:** b) BufferedReader
+
+---
+
+**Q170:** Which interface allows **bidirectional list traversal**?
+a) Iterator
+b) ListIterator
+c) Collection
+d) Map
+
+✅ **Answer:** b) ListIterator
+
+---
+
+**Q171:** Which **generic type declaration** allows any type?
+a) <T>
+b) <E>
+c) <K,V>
+d) <S>
+
+✅ **Answer:** a) <T>
+
+---
+
+**Q172:** Which **Stream method** reduces collection to a single value?
+a) map()
+b) reduce()
+c) filter()
+d) collect()
+
+✅ **Answer:** b) reduce()
+
+---
+
+**Q173:** Which **Stream method** performs **intermediate transformation**?
+a) collect()
+b) map()
+c) forEach()
+d) reduce()
+
+✅ **Answer:** b) map()
+
+---
+
+**Q174:** Which **Stream terminal operation** collects elements into a list?
+a) collect(Collectors.toList())
+b) forEach()
+c) reduce()
+d) map()
+
+✅ **Answer:** a) collect(Collectors.toList())
+
+---
+
+**Q175:** Which **Stream method** filters elements based on condition?
+a) map()
+b) filter()
+c) reduce()
+d) collect()
+
+✅ **Answer:** b) filter()
+
+---
+
+**Q176:** Which **design pattern restricts instantiation to one object**?
+a) Singleton
+b) Factory
+c) Observer
+d) Strategy
+
+✅ **Answer:** a) Singleton
+
+---
+
+**Q177:** Which **pattern converts interface into another interface**?
+a) Adapter
+b) Decorator
+c) Factory
+d) Observer
+
+✅ **Answer:** a) Adapter
+
+---
+
+**Q178:** Which **pattern adds behavior dynamically**?
+a) Decorator
+b) Observer
+c) Strategy
+d) Singleton
+
+✅ **Answer:** a) Decorator
+
+---
+
+**Q179:** Which **pattern selects algorithm at runtime**?
+a) Strategy
+b) Factory
+c) Singleton
+d) Observer
+
+✅ **Answer:** a) Strategy
+
+---
+
+**Q180:** Which **pattern notifies dependent objects**?
+a) Observer
+b) Singleton
+c) Strategy
+d) Decorator
+
+✅ **Answer:** a) Observer
+
+---
+
+**Q181:** Which **class reads console input**?
+a) Scanner
+b) BufferedReader
+c) Console
+d) All of the above
+
+✅ **Answer:** d) All of the above
+
+---
+
+**Q182:** Which **method reads integer from Scanner**?
+a) next()
+b) nextInt()
+c) readInt()
+d) nextLine()
+
+✅ **Answer:** b) nextInt()
+
+---
+
+**Q183:** Which **method closes a Scanner**?
+a) stop()
+b) close()
+c) end()
+d) terminate()
+
+✅ **Answer:** b) close()
+
+---
+
+**Q184:** Which **method converts string to integer**?
+a) parseInt()
+b) valueOf()
+c) toInt()
+d) Both a & b
+
+✅ **Answer:** d) Both a & b
+
+---
+
+**Q185:** Which **method converts integer to string**?
+a) toString()
+b) valueOf()
+c) parseInt()
+d) Both a & b
+
+✅ **Answer:** d) Both a & b
+
+---
+
+**Q186:** Which **method checks if optional has value**?
+a) isEmpty()
+b) isPresent()
+c) exists()
+d) contains()
+
+✅ **Answer:** b) isPresent()
+
+---
+
+**Q187:** Which **optional method returns default if empty**?
+a) get()
+b) orElse()
+c) value()
+d) default()
+
+✅ **Answer:** b) orElse()
+
+---
+
+**Q188:** Which **class implements unmodifiable list**?
+a) List.of()
+b) ArrayList
+c) LinkedList
+d) Vector
+
+✅ **Answer:** a) List.of()
+
+---
+
+**Q189:** Which method **flattens nested collections in streams**?
+a) flatMap()
+b) map()
+c) reduce()
+d) collect()
+
+✅ **Answer:** a) flatMap()
+
+---
+
+**Q190:** Which **Stream method executes terminal action**?
+a) forEach()
+b) map()
+c) filter()
+d) flatMap()
+
+✅ **Answer:** a) forEach()
+
+---
+
+**Q191:** Which **interface provides iteration in both directions**?
+a) Iterator
+b) ListIterator
+c) Collection
+d) Map
+
+✅ **Answer:** b) ListIterator
+
+---
+
+**Q192:** Which **loop prints right triangle pattern**?
+a) Nested loops
+b) Single loop
+c) Switch
+d) Recursion
+
+✅ **Answer:** a) Nested loops
+
+---
+
+**Q193:** Which **loop prints pyramid pattern**?
+a) Two nested loops (spaces & stars)
+b) Single loop
+c) Switch
+d) Recursion
+
+✅ **Answer:** a) Two nested loops (spaces & stars)
+
+---
+
+**Q194:** Which **loops required for diamond pattern**?
+a) 1
+b) 2
+c) 4
+d) 3
+
+✅ **Answer:** c) 4
+
+---
+
+**Q195:** Which **class reads object from file**?
+a) ObjectInputStream
+b) FileReader
+c) BufferedReader
+d) Scanner
+
+✅ **Answer:** a) ObjectInputStream
+
+---
+
+**Q196:** Which **method serializes object to file**?
+a) ObjectOutputStream.writeObject()
+b) write()
+c) save()
+d) serialize()
+
+✅ **Answer:** a) ObjectOutputStream.writeObject()
+
+---
+
+**Q197:** Which **exception occurs during I/O**?
+a) IOException
+b) RuntimeException
+c) NullPointerException
+d) ArithmeticException
+
+✅ **Answer:** a) IOException
+
+Q198: Which method reads all lines from a file using NIO?
+a) Files.readAll()
+b) Files.readAllLines()
+c) FileReader.read()
+d) BufferedReader.read()
+
+✅ Answer: b) Files.readAllLines()
+
+Q199: Which method appends text to a file using FileWriter?
+a) write(String, append)
+b) write(String) with constructor append = true
+c) append() only
+d) add()
+
+✅ Answer: b) write(String) with constructor append = true
+
+Q200: Which exception occurs when class not found during deserialization?
+a) IOException
+b) ClassNotFoundException
+c) FileNotFoundException
+d) RuntimeException
+
+✅ Answer: b) ClassNotFoundException
+---
+
+**************************************************************
